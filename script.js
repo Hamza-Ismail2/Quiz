@@ -112,8 +112,8 @@ const questions = [
             displaymsg.style.display = "none";
             displaymsg.style.pointerEvents = "none";
             quizbox.style.pointerEvents = "auto";
-            document.body.style.backgroundImage = 'url(../Page/blackback.jpg)';
-            quizbox.style.backgroundImage = 'url(../Page/back.png)';
+            document.body.style.backgroundImage = 'url(../blackback.jpg)';
+            quizbox.style.backgroundImage = 'url(../back.png)';
             startQuiz();
         }
          
@@ -184,7 +184,7 @@ const questions = [
             nextElement.classList.add("playagainbtn");
             nextElement.innerHTML = "Play Again";
             nextElement.style.display = "block";
-            quizbox.style.backgroundImage = 'url(../Page/pic3.png)';
+            quizbox.style.backgroundImage = 'url(../pic3.png)';
         }
 
         function handleNextOption() {
@@ -209,7 +209,7 @@ const questions = [
                 displaymsg.style.display = "block";
                 displaymsg.style.pointerEvents = "auto";
                 quizbox.style.pointerEvents = "none";
-                document.body.style.backgroundImage = 'url(../Page/pic3.jpg)';
+                document.body.style.backgroundImage = 'url(../pic3.jpg)';
 
             }
         });
